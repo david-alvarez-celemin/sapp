@@ -1,0 +1,16 @@
+-Information leakage (En mi ordenador hace traceback de todos los errores SOL: desactivar Whitelabel SpringBoot)
+-SQL-i
+	* login: [usuario que existe]' OR '1'='1
+
+-Unrestricted Upload (Con posible Remote Code Execution en foto perfil)
+	=> L217 -> Esta función guarda el archivo tal cual llega, sin comprobar el tipo ni el contenido
+-Information leakage: Cuando un usuario no existe, te dice que un usuario no existe
+
+
+
+
+
+IMPORTANTE:
++Para mirar librerías vulnerables
+	mvnrepository.com
+	cvedetails.com
