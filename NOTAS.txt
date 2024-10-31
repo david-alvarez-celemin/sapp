@@ -4,8 +4,8 @@
 
 -Unrestricted Upload (Con posible Remote Code Execution en foto perfil)
 	=> L217 -> Esta función guarda el archivo tal cual llega, sin comprobar el tipo ni el contenido
--Information leakage: Cuando un usuario no existe, te dice que un usuario no existe
--Arbitrary redirection: Cuando intentas acceder a páginas de usuario sin iniciar sesión se prepara una redirección para después del login, se puede cambiar la URL a la que te redirige de forma arbitraria
+-Information leakage: Cuando un usuario no existe, te dice que un usuario no existe -> fichero message.properties
+-Arbitrary redirection: Cuando intentas acceder a páginas de usuario sin iniciar sesión se prepara una redirección para después del login, se puede cambiar la URL a la que te  redirige de forma arbitraria
 
 
 
